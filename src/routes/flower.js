@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Card, CardBody, CardTitle, CardSubtitle, CardText } from "reactstrap";
 import '../App.css'
 
-const Flowers = () => {
+const Flower = () => {
   const [flowers, setFlowers] = useState([])
 
   const fetchData = () => {
@@ -21,7 +21,7 @@ const Flowers = () => {
 
   return (
     <div className="app">
-      <h1>Flowers</h1>
+      <h1>Flower</h1>
       <div className="wrapper">
       {flowers.map(flower => (
         <Card key={flower.ocpc}>
@@ -39,4 +39,4 @@ const Flowers = () => {
   )
 }
 
-export default Flowers
+export default Flower
