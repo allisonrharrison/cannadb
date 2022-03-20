@@ -22,7 +22,7 @@ const Strains = () => {
   return (
     <div className="app">
       <h1>Strains</h1>
-      <div className="strains">
+      <div className="wrapper">
       {strains.map(strain => (
         <Card key={strain.ocpc}>
           <div className="card-img-wrapper" style={{ backgroundImage:  `url('${strain.image}')` }}>

@@ -22,7 +22,7 @@ const Flowers = () => {
   return (
     <div className="app">
       <h1>Flowers</h1>
-      <div className="flowers">
+      <div className="wrapper">
       {flowers.map(flower => (
         <Card key={flower.ocpc}>
           <div className="card-img-wrapper" style={{ backgroundImage:  `url('${flower.image}')` }}>
