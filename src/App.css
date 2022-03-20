@@ -1,14 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 .app {
-  margin: 50px;
+  min-height: 100vh;
+  background-image: url('./img/cannadb_wallpaper.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
 }
 
 h1 {
   text-align: center;
+  font-family: 'Satisfy';
+  color: #fff;
+  font-size: 115px;
+  margin: 0;
+  padding: 50px;
 }
 
 .wrapper {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  margin: 0 auto;
+}
+
+.tile {
+  background-color: #702963e7;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  transition: all ease-in-out .2s;
+}
+
+.tile:hover {
+  background-color: #446b37fa;
+  cursor: pointer;
 }
 
 .card {

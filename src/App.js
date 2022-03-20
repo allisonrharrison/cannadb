@@ -12,13 +12,27 @@ const App = () => {
 
   return (
     <div className="app">
-      <Flowers />
-      <Strains />
-      <SeedCompanies />
-      <Brands />
-      <Extracts />
-      <Edibles />
-      <Products />
+      <h1>CannaDB</h1>
+      <div className="wrapper">
+        <div className="tile">
+          <h2>Flower</h2>
+        </div>
+        <div className="tile">
+          <h2>Extracts</h2>
+        </div>
+        <div className="tile">
+          <h2>Edibles</h2>
+        </div>
+        <div className="tile">
+          <h2>Products</h2>
+        </div>
+        <div className="tile">
+          <h2>Seeds</h2>
+        </div>
+        <div className="tile">
+          <h2>Brands</h2>
+        </div>
+      </div>
     </div>
   )
 }
