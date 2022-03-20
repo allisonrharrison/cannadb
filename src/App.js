@@ -1,11 +1,16 @@
-import './App.css';
+import React from "react";
+import './App.css'
+import Flowers from "./routes/flowers";
+import Strains from "./routes/strains";
 
-function App() {
+const App = () => {
+
   return (
-    <div className="App">
-      Hello World
+    <div className="app">
+      <Flowers />
+      <Strains />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
