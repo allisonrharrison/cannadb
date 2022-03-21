@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/cannadb/static/css/main.e55ebc0d.css",
-    "main.js": "/cannadb/static/js/main.fb1d9b16.js",
+    "main.css": "/cannadb/static/css/main.d529cf3d.css",
+    "main.js": "/cannadb/static/js/main.545729d1.js",
     "static/media/cannadb_wallpaper.png": "/cannadb/static/media/cannadb_wallpaper.b532b45ab358a6bbe867.png",
     "index.html": "/cannadb/index.html",
-    "main.e55ebc0d.css.map": "/cannadb/static/css/main.e55ebc0d.css.map",
-    "main.fb1d9b16.js.map": "/cannadb/static/js/main.fb1d9b16.js.map"
+    "main.d529cf3d.css.map": "/cannadb/static/css/main.d529cf3d.css.map",
+    "main.545729d1.js.map": "/cannadb/static/js/main.545729d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.e55ebc0d.css",
-    "static/js/main.fb1d9b16.js"
+    "static/css/main.d529cf3d.css",
+    "static/js/main.545729d1.js"
   ]
 }
